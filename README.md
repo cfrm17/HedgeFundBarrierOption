@@ -26,7 +26,10 @@ In generating the loss distributions for the representative deals, we assumed th
 
 If the barrier was hit the basket is to be sold off, and the funds were simulated in monthly intervals and the final values of each fund picked off of the resulting flows based on their redemption periods. If the sum of the final fund values (and any cash holdings) is less than the strike price of the deal, then there is a loss to the investor.
 
-These are similar to the barrier options (see https://finpricing.com/lib/EqBarrier.html), except that the leverage ratio may be readjusted (‘releveraging’) if the basket value crosses a barrier–either upwards or downwards. These deals should therefore be less risky than ordinary barrier options, and we have shown the effect of including them in the loss aggregation as if they were ordinary barrier options.
+These are similar to the barrier options, except that the leverage ratio may be readjusted (‘releveraging’) if the basket value crosses a barrier–either upwards or downwards. These deals should therefore be less risky than ordinary barrier options, and we have shown the effect of including them in the loss aggregation as if they were ordinary barrier options.
 
+References:
 
+https://finpricing.com/lib/EqBarrier.html
 
+https://derivatives.hcommons.org/fixed-income-instruments/
